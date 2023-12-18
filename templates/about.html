@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+{% include 'navbar.html' %}
+
+<!-- About Us Content -->
+<div class="container" style="padding-top: 20px;">
+    <div class="row" style="padding-top: 100px;">
+        <!-- Diyara -->
+        <div class="col-md-6 team-member">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="card-front">
+                        <img src="{% static 'image/person.png' %}" class="card-img-top logo" alt="Diyara">
+                        <h3 class="color-1">Diyara</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="color-1">Diyara</h3>
+                        <h5 class="color-2">Founder</h5>
+                        <p class="text-light text-center">Diyara led the development of both the front-end and back-end
+                            of the web
+                            application, ensuring smooth user experience
+                            and reliable data management. With extensive expertise in web technologies, Diyara ensured
+                            the platform's robustness and
+                            scalability.</p>
+                        <p class="color-3 text-center">Diyara Rashid the Full Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jonatan -->
+        <div class="col-md-6 team-member">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="card-front">
+                        <img src="{% static 'image/person.png' %}" class="card-img-top logo" alt="Jonatan">
+                        <h3 class="color-1">Jonatan</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="color-1">Jonatan</h3>
+                        <h5 class="color-2">PLC expert</h5>
+                        <p class="text-light text-center">Specializing in Programmable Logic Controllers (PLC), Jonatan
+                            was the
+                            go-to expert
+                            for automation and machinery control.
+                            His expertise ensured that the PLC connections were efficient and reliable, driving the
+                            automated aspects of the
+                            project.</p>
+                        <p class="color-3 text-center">Focused on establishing and fixing the PLC connections.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <!-- Albin -->
+        <div class="col-md-6 team-member">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="card-front">
+                        <img src="{% static 'image/person.png' %}" class="card-img-top logo" alt="Albin">
+                        <h3 class="color-1">Albin</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="color-1">Albin</h3>
+                        <h5 class="color-2">Network specialist</h5>
+                        <p class="text-light text-center">Albin played a critical role in establishing the network
+                            architecture. By
+                            optimizing
+                            the connections and ensuring robust
+                            security measures, Albin made sure the platform communicated flawlessly with external
+                            devices like the Raspberry Pi.</p>
+                        <p class="color-3 text-center">Managed the network connections to interface with the Raspberry
+                            Pi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Osama -->
+        <div class="col-md-6 team-member">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="card-front">
+                        <img src="{% static 'image/person.png' %}" class="card-img-top logo" alt="Osama">
+                        <h3 class="color-1">Osama</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="color-1">Osama</h3>
+                        <h5 class="color-2">Circuit systems architect</h5>
+                        <p class="text-light text-center">Osama played a critical role in establishing the network
+                            architecture. By
+                            optimizing
+                            the connections and ensuring robust
+                            security measures, Osama made sure the platform communicated flawlessly with external
+                            devices like the Raspberry Pi.</p>
+                        <p class="color-3 text-center">Osama was crucial in fixing the circuit plate for the project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Sara -->
+        <div class="col-md-6 team-member">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="card-front">
+                        <img src="{% static 'image/person.png' %}" class="card-img-top logo" alt="Sara">
+                        <h3 class="color-1">Sara</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3 class="color-1">Sara</h3>
+                        <h5 class="color-2">CDatabase Founder</h5>
+                        <p class="text-light text-center">Sara was instrumental in setting up the foundational structure
+                            of the
+                            database.
+                            With a focus on data integrity and security, Sara ensured the reliable storage and retrieval
+                            of
+                            data, making it the backbone of the entire project.</p>
+                        <p class="color-3 text-center">Sara Full Stack Developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
+
+{% endblock content %}
