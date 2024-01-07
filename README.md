@@ -42,7 +42,7 @@
             . ![Alt text](login.png)
 
     3. #### Log out a User From Session
-        ##### URL: http://127.0.0.1:8000/api/logout/
+        ##### URL: http://127.0.0.1:8000/logout/
         - ##### 
             . ![Alt text](logout.png)
 
@@ -54,8 +54,8 @@
     5. #### Raspberry Pi Websocket API:
         ##### Enpoint url: 'ws://127.0.0.1:8000/ws/raspberry_pi/'
         - ##### For Testing:
-            1. Naviage to the Endpoint: http://127.0.0.1:8000/api/raspi/
-            2. Make and Order, You wil see the order you make will be display to the above Url( http://127.0.0.1:8000/api/raspi/)
+            1. Naviage to the Endpoint: http://127.0.0.1:8000/raspi/
+            2. Make and Order, You wil see the order you make will be display to the above Url( http://127.0.0.1:8000/raspi/)
             ![Alt text](raspberry_pi.png)
 
     6. #### Run these command when ever you delete the database
