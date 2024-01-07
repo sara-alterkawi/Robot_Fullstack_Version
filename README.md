@@ -31,10 +31,10 @@
 ## API Endpoints
 - ### Home URL: http://127.0.0.1:8000/
 
-    1. #### Register a New User
-        ##### URL: http://127.0.0.1:8000/register
+    1. #### Sign up a New User
+        ##### URL: http://127.0.0.1:8000/signup/
         - ##### 
-            . ![Alt text](register.png)
+            . ![Alt text](signup.png)
 
     2. #### Log in a User
         ##### URL: http://127.0.0.1:8000/login/
